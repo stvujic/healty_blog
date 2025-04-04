@@ -30,6 +30,32 @@ require_once "model/database.php";
             </div>
         </div>
 
+        <div class="services">
+    <h2>Our Services</h2>
+
+    <div class="service-boxes"> <!-- Dodajemo ovaj div kao roditelj za sve kvadrate -->
+        <div class="service-box">
+            <img src="/images/service_1.jpg" alt="Nutrition Plan">
+            <h3>Nutrition Plan</h3>
+        </div>
+
+        <div class="service-box">
+            <img src="/images/service_1.jpg" alt="Life Coach">
+            <h3>Life Coach</h3>
+        </div>
+
+        <div class="service-box">
+            <img src="/images/service_1.jpg" alt="Weight Loss">
+            <h3>Weight Loss</h3>
+        </div>
+
+        <div class="service-box">
+            <img src="/images/service_1.jpg" alt="Workout Plan">
+            <h3>Workout Plan</h3>
+        </div>
+    </div>
+</div>
+
         <!-- Uključivanje Bootstrap JS CDN-a na kraju stranice -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     </body>

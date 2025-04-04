@@ -53,3 +53,56 @@
 .btn-contact:hover {
     transform: scale(1.1); /* Povecaj dugme */
 }
+
+/* Stil za usluge */
+.services {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.services h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Flexbox za kvadrate sa uslugama */
+.service-boxes {
+    display: flex;
+    justify-content: space-between; /* Rasporedi kvadrate ravnomerno */
+    flex-wrap: wrap; /* Omogućava prelamanje u novi red kad je potrebno */
+    gap: 20px; /* Razmak između kvadrata */
+}
+
+.service-box {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efekat kada pređeš mišem */
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+/* Stil za slike u kvadratima */
+.service-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Slika se neće deformisati */
+}
+
+/* Stil za naslove usluga */
+.service-box h3 {
+    font-size: 1.2em;
+    color: #333;
+    padding: 15px;
+    margin: 0;
+    background-color: #28a745;
+    color: white;
+}
