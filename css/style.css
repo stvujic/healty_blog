@@ -56,7 +56,7 @@
 
 /* Stil za usluge */
 .services {
-    padding: 40px 20px;
+    padding: 50px 300px;
     text-align: center;
     background-color: #f9f9f9;
 }
@@ -105,4 +105,95 @@
     margin: 0;
     background-color: #28a745;
     color: white;
+}
+
+.about-section {
+    background-color: #28a745; /* Zeleno kao dugme */
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-box {
+    background-color: rgba(255, 255, 255, 0.85); /* Providna bela pozadina */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 900px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    gap: 30px;
+}
+
+.about-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    color: #28a745;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.about-text p {
+    color: #333;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.testimonial-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.testimonial-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 30px 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.testimonial-box img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimonial-box .stars {
+    color: #fbc02d;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.testimonial-box p {
+    font-style: italic;
+    color: #333;
+}
+.testimonial-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+.site-footer {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.95rem;
+}
+
+.site-footer p {
+    margin: 0;
 }
