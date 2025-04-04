@@ -197,3 +197,12 @@
 .site-footer p {
     margin: 0;
 }
+
+.contact-page {
+    background: #f8f9fa;
+}
+
+.contact-page .card {
+    background-color: #ffffff;
+    border: none;
+}
