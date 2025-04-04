@@ -1,0 +1,55 @@
+/* Dodatni stil za obaveštenje */
+.notification-bar {
+    background-color: #28a745; /* Zeleni pozadinski kolor */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+    max-width: 100%; /* Ograničava širinu obaveštenja */
+    font-size: 16px;
+}
+
+/* Stil za banner div sa pozadinskom slikom */
+.health-banner {
+    background-image: url('/images/img_1.jpg'); /* Putanja do slike */
+    background-size: cover; /* Slika pokriva čitav prostor */
+    background-position: center; /* Slika se centrira */
+    height: 500px; /* Visina div-a, možeš je prilagoditi */
+    display: flex;
+    justify-content: center; /* Centriraj sadržaj horizontalno */
+    align-items: center; /* Centriraj sadržaj vertikalno */
+}
+
+/* Stil za kvadratni sadržaj unutar div-a */
+.content-box {
+    background-color: rgba(255, 255, 255, 0.7); /* Poluprovidna bela pozadina */
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px; /* Blago zaobljeni ivice */
+    width: 400px; /* Širina kvadrata */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Dodaj senu oko kvadrata */
+}
+
+/* Stil za naslov unutar kvadrata */
+.content-box h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px; /* Razmak između naslova i dugmeta */
+}
+
+/* Stil za dugme */
+.btn-contact {
+    background-color: #28a745; /* Zeleni pozadinski kolor */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none; /* Ukloni podvlačenje linka */
+    border-radius: 5px;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out; /* Efekat pri prelasku miša */
+    display: inline-block;
+}
+
+/* Efekat za dugme kada pređeš mišem */
+.btn-contact:hover {
+    transform: scale(1.1); /* Povecaj dugme */
+}
