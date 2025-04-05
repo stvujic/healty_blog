@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <!-- Logo -->
-        <a class="navbar-brand" href="#">Logo</a>
+        <a class="navbar-brand" href="index.php">Logo</a>
 
         <!-- Toggler button for mobile view -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,7 @@
                     <a class="nav-link" href="#">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Special Offer</a>
+                    <a class="nav-link" href="download.php">Downloads</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Blog</a>

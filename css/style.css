@@ -206,3 +206,23 @@
     background-color: #ffffff;
     border: none;
 }
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #218838;
+}
