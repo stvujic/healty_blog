@@ -38,19 +38,19 @@ require_once "model/database.php";
         <h2>Our Services</h2>
         <div class="service-boxes">
             <div class="service-box">
-                <img src="/images/service_1.jpg" alt="Nutrition Plan">
+                <img src="images/service_1.jpg" alt="Nutrition Plan">
                 <h3>Nutrition Plan</h3>
             </div>
             <div class="service-box">
-                <img src="/images/service_1.jpg" alt="Life Coach">
+                <img src="images/service_1.jpg" alt="Life Coach">
                 <h3>Life Coach</h3>
             </div>
             <div class="service-box">
-                <img src="/images/service_1.jpg" alt="Weight Loss">
+                <img src="images/service_1.jpg" alt="Weight Loss">
                 <h3>Weight Loss</h3>
             </div>
             <div class="service-box">
-                <img src="/images/service_1.jpg" alt="Workout Plan">
+                <img src="images/service_1.jpg" alt="Workout Plan">
                 <h3>Workout Plan</h3>
             </div>
         </div>
@@ -58,7 +58,7 @@ require_once "model/database.php";
 
     <div class="about-section">
         <div class="about-box">
-            <img src="/images/about_us.jpg" alt="About Us" class="about-img">
+            <img src="images/about_us.jpg" alt="About Us" class="about-img">
             <div class="about-text">
                 <h2>About Us</h2>
                 <p>At Healthy Blog, we're passionate about guiding individuals toward a balanced lifestyle. 
